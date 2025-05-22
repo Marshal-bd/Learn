@@ -1,0 +1,30 @@
+Timestamp: 2025-03-09 14:26:31
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /Artikel/Artikel.html
+=====================================
+Timestamp: 2025-03-09 14:26:31
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /favicon.ico
+=====================================
+Timestamp: 2025-03-09 14:26:31
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /Artikel/Artikel.html
+=====================================
+Timestamp: 2025-03-09 14:26:31
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /favicon.ico
+=====================================
+Timestamp: 2025-03-09 14:28:14
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /Artikel/Artikel.html
+=====================================
+Timestamp: 2025-03-09 14:28:14
+IP Pengguna: 127.0.0.1
+Metode Permintaan: GET
+URI yang Diakses: /favicon.ico
+=====================================

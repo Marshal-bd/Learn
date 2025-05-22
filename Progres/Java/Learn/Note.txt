@@ -1,0 +1,40 @@
+📘 Tugas Java: Aplikasi Manajemen Data Mahasiswa
+📌 Deskripsi:
+Buat program Java berbasis console yang dapat digunakan untuk mengelola data mahasiswa. Program ini harus bisa melakukan beberapa fungsi dasar seperti menambah data, menampilkan daftar mahasiswa, mencari berdasarkan NIM, dan menghapus data.
+
+🎯 Fitur yang Harus Ada:
+Tambah Mahasiswa (Nama, NIM, Jurusan)
+
+Tampilkan Semua Mahasiswa
+
+Cari Mahasiswa Berdasarkan NIM
+
+Hapus Mahasiswa Berdasarkan NIM
+
+Keluar dari Program
+
+🧰 Struktur Data:
+Gunakan ArrayList untuk menyimpan daftar mahasiswa.
+
+📂 Contoh Output:
+text
+Copy
+Edit
+=== Menu ===
+1. Tambah Mahasiswa
+2. Tampilkan Mahasiswa
+3. Cari Mahasiswa
+4. Hapus Mahasiswa
+5. Keluar
+Pilih: 1
+
+Masukkan Nama: Andi
+Masukkan NIM: 123456
+Masukkan Jurusan: Informatika
+Data berhasil ditambahkan!
+🧠 Tips:
+Buat class Mahasiswa dengan atribut: nama, nim, dan jurusan.
+
+Gunakan loop while atau do-while untuk menjalankan menu berulang kali sampai user memilih keluar.
+
+Gunakan metode di dalam class terpisah atau dalam main class agar rapi.
