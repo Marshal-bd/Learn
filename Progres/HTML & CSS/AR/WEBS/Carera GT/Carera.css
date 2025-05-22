@@ -1,0 +1,187 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(98, 98, 98);
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkgrey;
+}
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../IMG/Porsche.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  position: relative;
+}
+header {
+  position: static;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  width: 100%;
+  top: 0;
+  height: 31px;
+  font-size: 37px;
+  text-align: center;
+  color: rgb(230, 230, 230);
+  font-family: "Prompt", serif;
+  background-color: rgba(40, 40, 40, 0.723);
+}
+nav {
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 47px;
+  background-color: rgba(40, 40, 40, 0.723);
+  text-align: center;
+}
+nav a {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Prompt", serif;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  padding: 30px 0px 30px 0px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Prompt", serif;
+}
+.KX {
+  font-family: "Space Grotesk", serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.GH {
+  font-family: "Space Grotesk", serif;
+  text-align: justify;
+  font-size: 18px;
+  margin: 0px 30px 0px 30px;
+}
+div.RX8 {
+  text-align: center;
+  margin: 0;
+}
+div.RX8 img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px 9px 0px rgb(0, 0, 0, 0.12),
+    0px 6px 7px 0px rgba(0, 0, 0, 0.09);
+  transition-duration: 1s;
+}
+div.RX8 img:hover {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 520px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 12px 13px 0px rgb(0, 0, 0, 0.12),
+    0px 8px 9px 0px rgba(0, 0, 0, 0.09);
+}
+div.KRUIK {
+  text-align: center;
+  margin: 0;
+}
+div.KRUIK img {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 470px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px 9px 0px rgb(0, 0, 0, 0.12),
+    0px 6px 7px 0px rgba(0, 0, 0, 0.09);
+  transition-duration: 1s;
+}
+div.KRUIK img:hover {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 480px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px 9px 0px rgb(0, 0, 0, 0.12),
+    0px 6px 7px 0px rgba(0, 0, 0, 0.09);
+}
+.ROG {
+  font-family: "Space Grotesk", serif;
+  text-align: center;
+  font-size: 18px;
+}
+ul.QWERT {
+  margin-left: 50px;
+  font-family: "Space Grotesk", serif;
+  font-size: 18px;
+}
+ul.RTXUY {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.RRRR {
+  margin-bottom: 17px;
+}
+nav img {
+  width: 40px;
+  height: auto;
+  clear: left;
+  float: left;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.container {
+  margin-top: 30rem;
+}
+#RIXKE {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-top: 47px;
+  left: -250px;
+  width: 248px;
+  height: 695px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+.RIXKE a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.8s;
+}
+.RIXKE a:hover {
+  background-color: #444;
+}

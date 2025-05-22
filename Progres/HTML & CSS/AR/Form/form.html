@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran kerja</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <form action="">
+        <h3>Informasi Pelamar</h3>
+        <table>
+          <tr>
+            <td><label for="NIK">Nomor Induk Kependudukan</label></td>
+            <td class="T">:</td>
+            <td colspan="2"><input type="number" id="NIK" name="NIK" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="Nama">Nama Lengkap</label></td>
+            <td class="T">:</td>
+            <td colspan="2"><input type="text" id="Nama" name="Nama" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+            <td class="T">:</td>
+            <td colspan="2">
+              <select name="Jenis Kelamin" id="Jenis Kelamin">
+                <option value="">-- Jenis Kelamin --</option>
+                <option value="">Perempuan</option>
+                <option value="">Laki - Laki</option>
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="Tanggal Lahir">Tempat Lahir</label></td>
+            <td class="T">:</td>
+            <td colspan="2">
+              <input type="date" name="Tanggal Lahir" id="Tanggal Lahir" />
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="Alamat">Alamat</label></td>
+            <td class="T">:</td>
+            <td colspan="2"><textarea name="Alamat" id="Alamat"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan=""></td>
+            <td></td>
+            <td>
+              <select name="Kota" id="Kota">
+                <option value="" class="X">-- Kota --</option>
+                <option value="">Ambon</option>
+                <option value="">Angkola</option>
+                <option value="">Asahan</option>
+                <option value="">Banda Aceh</option>
+                <option value="">Bandung</option>
+                <option value="">Banjarmasin</option>
+                <option value="">Banjarbaru</option>
+                <option value="">Batam</option>
+                <option value="">Batu</option>
+                <option value="">Bekasi</option>
+                <option value="">Belitung</option>
+                <option value="">Binjai</option>
+                <option value="">Blitar</option>
+                <option value="">Bogor</option>
+                <option value="">Bontang</option>
+                <option value="">Ciamis</option>
+                <option value="">Cianjur</option>
+                <option value="">Cilegon</option>
+                <option value="">Cimahi</option>
+                <option value="">Denpasar</option>
+                <option value="">Depok</option>
+                <option value="">Dumai</option>
+                <option value="">Gorontalo</option>
+                <option value="">Gunungsitoli</option>
+                <option value="">Jayapura</option>
+                <option value="">Jember</option>
+                <option value="">Jambi</option>
+                <option value="">Kediri</option>
+                <option value="">Kendari</option>
+                <option value="">Kota Bima</option>
+                <option value="">Kota Bitung</option>
+                <option value="">Kota Cimahi</option>
+                <option value="">Kota Cirebon</option>
+                <option value="">Kota Denpasar</option>
+                <option value="">Kota Depok</option>
+                <option value="">Kota Dumai</option>
+                <option value="">Kota Kupang</option>
+                <option value="">Kota Mataram</option>
+                <option value="">Kota Medan</option>
+                <option value="">Kota Padang</option>
+                <option value="">Kota Palembang</option>
+                <option value="">Kota Pontianak</option>
+                <option value="">Kota Samarinda</option>
+                <option value="">Kota Semarang</option>
+                <option value="">Kota Serang</option>
+                <option value="">Kota Surabaya</option>
+                <option value="">Kota Surakarta</option>
+                <option value="">Kota Tangerang</option>
+                <option value="">Kota Yogyakarta</option>
+                <option value="">Kupang</option>
+                <option value="">Lhokseumawe</option>
+                <option value="">Malang</option>
+                <option value="">Madiun</option>
+                <option value="">Makassar</option>
+                <option value="">Manado</option>
+                <option value="">Medan</option>
+                <option value="">Mataram</option>
+                <option value="">Magelang</option>
+                <option value="">Palangkaraya</option>
+                <option value="">Palembang</option>
+                <option value="">Palu</option>
+                <option value="">Pekalongan</option>
+                <option value="">Pekanbaru</option>
+                <option value="">Pontianak</option>
+                <option value="">Purwokerto</option>
+                <option value="">Salatiga</option>
+                <option value="">Semarang</option>
+                <option value="">Serang</option>
+                <option value="">Singaraja</option>
+                <option value="">Sleman</option>
+                <option value="">Solo</option>
+                <option value="">Sorong</option>
+                <option value="">Surabaya</option>
+                <option value="">Surakarta</option>
+                <option value="">Sukabumi</option>
+                <option value="">Tangerang</option>
+                <option value="">Tasikmalaya</option>
+                <option value="">Tebing Tinggi</option>
+                <option value="">Tegal</option>
+                <option value="">Yogyakarta</option>
+              </select>
+            </td>
+            <td>
+              <select name="Provinsi" id="Provinsi">
+                <option value="" class="X">-- Provinsi --</option>
+                <option value="Aceh">Aceh</option>
+                <option value="Bali">Bali</option>
+                <option value="Banten">Banten</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="DI Yogyakarta">DI Yogyakarta</option>
+                <option value="DKI Jakarta">DKI Jakarta</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Jambi">Jambi</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="Jawa Tengah">Jawa Tengah</option>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="Kalimantan Barat">Kalimantan Barat</option>
+                <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                <option value="Kalimantan Timur">Kalimantan Timur</option>
+                <option value="Kalimantan Utara">Kalimantan Utara</option>
+                <option value="Kepulauan Bangka Belitung">
+                  Kepulauan Bangka Belitung
+                </option>
+                <option value="Kepulauan Riau">Kepulauan Riau</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Maluku">Maluku</option>
+                <option value="Maluku Utara">Maluku Utara</option>
+                <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                <option value="Papua">Papua</option>
+                <option value="Papua Barat">Papua Barat</option>
+                <option value="Riau">Riau</option>
+                <option value="Sulawesi Barat">Sulawesi Barat</option>
+                <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                <option value="Sulawesi Utara">Sulawesi Utara</option>
+                <option value="Sumatera Barat">Sumatera Barat</option>
+                <option value="Sumatera Selatan">Sumatera Selatan</option>
+                <option value="Sumatera Utara">Sumatera Utara</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="A">Kota</td>
+            <td class="A">Provinsi</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><input class="K" type="number" id="KPos" name="KPos" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Kode Pos</td>
+          </tr>
+          <tr>
+            <td><label for="Notelp">No. Telepon</label></td>
+            <td class="T">:</td>
+            <td><input type="number" name="Notelp" id="Notelp" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="E-mail">E - Mail</label></td>
+            <td class="T">:</td>
+            <td><input type="email" name="E-mail" id="E-mail" /></td>
+          </tr>
+          <tr>
+            <td><label for="AIP">Asal Institusi Pendidikan</label></td>
+            <td class="T">:</td>
+            <td><input type="text" name="AIP" id="AIP" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="NI">Nomor Ijazah</label></td>
+            <td class="T">:</td>
+            <td><input type="text" name="NI" id="NI" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="NA">Nilai Akreditasi</label></td>
+            <td class="T">:</td>
+            <td><input type="text" name="NA" id="NA" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="NI">Nilai IPK</label></td>
+            <td class="T">:</td>
+            <td><input type="number" name="NI" id="NI" /></td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

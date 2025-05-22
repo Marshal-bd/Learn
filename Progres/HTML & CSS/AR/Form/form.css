@@ -1,0 +1,74 @@
+.ibm-plex-sans-body {
+  font-family: "IBM Plex Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.inter-body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  margin: auto;
+  padding: 50px;
+}
+div.container {
+  box-sizing: border-box;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(193, 193, 193);
+  width: 0 auto;
+  height: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 5px 7px 0px rgb(0, 0, 0, 0.12),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.18);
+  transition-duration: 0.78s;
+}
+div.container:hover {
+  padding: 22px 42px 22px 42px;
+}
+label {
+  font-family: "Inter", serif;
+}
+h3 {
+  font-family: "IBM Plex Sans", serif;
+  border-left: 5px solid black;
+  padding: 5px;
+  margin-bottom: 30px;
+  background-color: rgb(225, 225, 225);
+  font-size: 23px;
+}
+table,
+tr,
+td {
+  border-spacing: 15px;
+}
+.T {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+input {
+  margin: auto;
+  padding: 2.5px 10px;
+  text-align: center;
+}
+select {
+  margin: auto;
+  padding: 2.5px 28px;
+  text-align: center;
+}
+textarea {
+  text-align: justify;
+  padding: 0px 90px 0px 90px;
+}
+.A {
+  vertical-align: top;
+}
+.K {
+  padding: 2px 5px 2px 5px;
+}
+.X {
+  color: rgba(162, 162, 162, 0.22);
+}
