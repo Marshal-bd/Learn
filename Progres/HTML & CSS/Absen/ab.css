@@ -1,0 +1,30 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.N {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.M {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.C {
+  text-align: left;
+  padding-right: 130px;
+}
+.K {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.X {
+  text-align: left;
+}
+.SO {
+  margin: 29vh;
+}

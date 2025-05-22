@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Informasi Pelamar</title>
+    <link rel="stylesheet" href="dr.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Informasi Pelamar</h2>
+      <form>
+        <label for="nik">No. Induk Kependudukan (NIK) / No Passport</label>
+        <input type="number" id="nik" name="nik" />
+
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" />
+
+        <label for="gender">Jenis Kelamin</label>
+        <select id="gender" name="gender">
+          <option value="">Pilih Jenis Kelamin</option>
+          <option value="male">Laki-laki</option>
+          <option value="female">Perempuan</option>
+        </select>
+
+        <label for="birthplace">Tempat Lahir</label>
+        <input type="text" id="birthplace" name="birthplace" />
+
+        <label for="birthdate">Tanggal Lahir</label>
+        <input type="date" id="birthdate" name="birthdate" />
+
+        <label for="address">Alamat</label>
+        <textarea name="Alamat" id="address"></textarea>
+        <div class="address-details">
+          <select type="text" name="city">
+            <option value="">Kota</option>
+            <option value="">Ambon</option>
+            <option value="">Balikpapan</option>
+            <option value="">Bandar Lampung</option>
+            <option value="">Bandung</option>
+            <option value="">Banjar</option>
+            <option value="">Banjarbaru</option>
+            <option value="">Banjarmasin</option>
+            <option value="">Batu</option>
+            <option value="">Batam</option>
+            <option value="">Bau-Bau</option>
+            <option value="">Bekasi</option>
+            <option value="">Bekasi</option>
+            <option value="">Bekasi</option>
+            <option value="">Bengkulu</option>
+            <option value="">Bima</option>
+            <option value="">Binjai</option>
+            <option value="">Bitung</option>
+            <option value="">Blitar</option>
+            <option value="">Bogor</option>
+            <option value="">Bontang</option>
+            <option value="">Bukittinggi</option>
+            <option value="">Cilegon</option>
+            <option value="">Cimahi</option>
+            <option value="">Cirebon</option>
+            <option value="">Denpasar</option>
+            <option value="">Depok</option>
+            <option value="">Dumai</option>
+            <option value="">Gorontalo</option>
+            <option value="">Jakarta Barat</option>
+            <option value="">Jakarta Pusat</option>
+            <option value="">Jakarta Selatan</option>
+            <option value="">Jakarta Timur</option>
+            <option value="">Jakarta Utara</option>
+            <option value="">Jambi</option>
+            <option value="">Jayapura</option>
+            <option value="">Kediri</option>
+            <option value="">Kendari</option>
+            <option value="">Kotamobagu</option>
+            <option value="">Kupang</option>
+            <option value="">Langsa</option>
+            <option value="">Lhokseumawe</option>
+            <option value="">Lubuklinggau</option>
+            <option value="">Magelang</option>
+            <option value="">Makassar</option>
+            <option value="">Malang</option>
+            <option value="">Manado</option>
+            <option value="">Manokwari</option>
+            <option value="">Mataram</option>
+            <option value="">Madiun</option>
+            <option value="">Mamuju</option>
+            <option value="">Medan</option>
+            <option value="">Metro</option>
+            <option value="">Mojokerto</option>
+            <option value="">Padang</option>
+            <option value="">Padangsidempuan</option>
+            <option value="">Pagaralam</option>
+            <option value="">Palangka Raya</option>
+            <option value="">Palembang</option>
+            <option value="">Palopo</option>
+            <option value="">Palu</option>
+            <option value="">Pangkalpinang</option>
+            <option value="">Parepare</option>
+            <option value="">Pariaman</option>
+            <option value="">Pasuruan</option>
+            <option value="">Payakumbuh</option>
+            <option value="">Pekalongan</option>
+            <option value="">Pekanbaru</option>
+            <option value="">Pematangsiantar</option>
+            <option value="">Pontianak</option>
+            <option value="">Prabumulih</option>
+            <option value="">Probolinggo</option>
+            <option value="">Sabang</option>
+            <option value="">Salatiga</option>
+            <option value="">Samarinda</option>
+            <option value="">Semarang</option>
+            <option value="">Serang</option>
+            <option value="">Singkawang</option>
+            <option value="">Sofifi</option>
+            <option value="">Solok</option>
+            <option value="">Sorong</option>
+            <option value="">Subulussalam</option>
+            <option value="">Sukabumi</option>
+            <option value="">Sungai Penuh</option>
+            <option value="">Surabaya</option>
+            <option value="">Surakarta (Solo)</option>
+            <option value="">Tangerang</option>
+            <option value="">Tangerang Selatan</option>
+            <option value="">Tanjung Selor</option>
+            <option value="">Tanjungpinang</option>
+            <option value="">Tasikmalaya</option>
+            <option value="">Tegal</option>
+            <option value="">Ternate</option>
+            <option value="">Tidore</option>
+            <option value="">Tomohon</option>
+            <option value="">Tual</option>
+            <option value="">Yogyakarta</option>
+          </select>
+          <select name="provinsi" id="provinsi">
+            <option value="">Provinsi</option>
+            <option value="">Aceh</option>
+            <option value="">Bali</option>
+            <option value="">Banten</option>
+            <option value="">Bengkulu</option>
+            <option value="">DI Yogyakarta</option>
+            <option value="">DKI Jakarta</option>
+            <option value="">Gorontalo</option>
+            <option value="">Jambi</option>
+            <option value="">Jawa Barat</option>
+            <option value="">Jawa Tengah</option>
+            <option value="">Jawa Timur</option>
+            <option value="">Kalimantan Barat</option>
+            <option value="">Kalimantan Selatan</option>
+            <option value="">Kalimantan Tengah</option>
+            <option value="">Kalimantan Timur</option>
+            <option value="">Kalimantan Utara</option>
+            <option value="">Kepulauan Bangka Belitung</option>
+            <option value="">Kepulauan Riau</option>
+            <option value="">Lampung</option>
+            <option value="">Maluku</option>
+            <option value="">Maluku Utara</option>
+            <option value="">Nusa Tenggara Barat (NTB)</option>
+            <option value="">Nusa Tenggara Timur (NTT)</option>
+            <option value="">Papua</option>
+            <option value="">Papua Barat Daya</option>
+            <option value="">Papua Pegunungan</option>
+            <option value="">Papua Selatan</option>
+            <option value="">Papua Tengah</option>
+            <option value="">Riau</option>
+            <option value="">Sulawesi Barat</option>
+            <option value="">Sulawesi Selatan</option>
+            <option value="">Sulawesi Tengah</option>
+            <option value="">Sulawesi Tenggara</option>
+            <option value="">Sulawesi Utara</option>
+            <option value="">Sumatra Barat</option>
+            <option value="">Sumatra Selatan</option>
+            <option value="">Sumatra Utara</option>
+          </select>
+          <input type="text" placeholder="Kode Pos" name="postal" />
+        </div>
+
+        <label for="phone">No. Telp</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="institution">Asal Institusi Pendidikan</label>
+        <input type="text" id="institution" name="institution" />
+
+        <label for="degree">No. Ijazah</label>
+        <input type="text" id="degree" name="degree" />
+
+        <label for="accreditation">Akreditasi</label>
+        <input
+          type="text"
+          id="accreditation"
+          name="accreditation"
+          placeholder="contoh A / B / -"
+        />
+
+        <label for="gpa">Nilai IPK</label>
+        <input
+          type="text"
+          id="gpa"
+          name="gpa"
+          placeholder="dalam skala 4, contoh 3.50"
+        />
+
+        <button
+          type="submit"
+          onclick="alert('Data Sudah Dikirim Dan Berhasil Di Masukan Ke Pusat')"
+        >
+          Kirim
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
