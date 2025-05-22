@@ -1,0 +1,26 @@
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 14px;
+}
+.D {
+  background-color: whitesmoke;
+}
+.C {
+  background-color: yellow;
+}
+.E {
+  background-color: pink;
+}
+.G {
+  background-color: aqua;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

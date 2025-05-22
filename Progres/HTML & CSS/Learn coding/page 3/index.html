@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        img {
+            image-resolution:inherit;
+            float: none;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .left {
+            background-color: black;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+
+        .main {
+            background-color: blue;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+
+        .right {
+            background-color: brown;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+
+        @media screen and (max-width:800px){
+            .left, .main, .right{
+                width: 100%;
+            }
+        }
+
+    </style>
+    <title>bro ican html</title>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ex suscipit tempora veniam fugit voluptatum dicta eos. Nesciunt, iste unde sunt laborum commodi rerum quos praesentium veniam obcaecati maiores itaque laboriosam dolor eos nulla deleniti. Culpa, dicta assumenda veritatis, similique commodi atque odit cum eligendi perferendis autem fugiat consectetur id nisi modi fugit in, voluptatum illo expedita voluptatibus necessitatibus at minus dolorum odio. Recusandae quibusdam, eveniet quas ullam voluptatem explicabo. Tempora rerum, sapiente dicta architecto libero aut! Unde velit officia rem sed quibusdam commodi corporis. Officiis velit vitae provident. Dignissimos commodi distinctio vitae et, perferendis repellendus maxime tempora excepturi ex quaerat praesentium mollitia! Asperiores alias, voluptates laboriosam sequi mollitia odit nobis consectetur consequatur nam corporis excepturi eveniet, minus, accusamus perspiciatis ducimus quas dolorem quasi eaque ex. Laborum ab necessitatibus minima molestias atque beatae soluta quibusdam consectetur, voluptatibus ducimus dolorem nam repellat adipisci animi magnam aliquam? Alias consequuntur labore illum quidem nulla corrupti perspiciatis facere commodi nesciunt minus aliquid distinctio rerum sit debitis repellendus ex, minima laudantium qui, eum aut magnam culpa officia blanditiis eaque? Unde enim obcaecati in error cumque sit quisquam sint tenetur fugit magnam a, quo exercitationem ipsa placeat aliquam. Perspiciatis laboriosam magnam consequuntur quae repellendus. Repudiandae, pariatur.</p>
+          <div class="main">
+            <p>bruuuuuuuuuuuuhhhhhhhuhuhuhuhuhu</p>
+          </div>
+
+          <div class="left">
+            <p>dedede</p>
+          </div>
+
+          <div class="right">
+            <p>ayiyaiaayiaayaiyaiyayaiyiyiyaiyayayaiyaiy</p>
+          </div>
+
+
+          <script>
+            function startTrafficSignal() {
+                const green = document.getElementById("green");
+                const red = document.getElementById("red");
+                const yellow = document.getElementById("yellow");
+        
+                // Show green light for 5 seconds
+                green.style.opacity = 1;
+                setTimeout(() => {
+                    green.style.opacity = 0.3;
+                    red.style.opacity = 0.3;
+                    yellow.style.opacity = 1;
+                }, 5000);
+        
+                // Show yellow light for 2 seconds
+                setTimeout(() => {
+                    green.style.opacity = 0.3;
+                    red.style.opacity = 1;
+                    yellow.style.opacity = 0.3;
+                }, 7000);
+        
+                // Show red light for 5 seconds
+                setTimeout(() => {
+                    green.style.opacity = 1;
+                    red.style.opacity = 0.3;
+                    yellow.style.opacity = 0.3;
+                }, 12000);
+            }
+        
+            // Start the traffic signal immediately
+            const timer = setInterval(() => {
+                startTrafficSignal();
+            }, 12000);
+        </script>
+        
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "pic_bulboff.gif"
+                   } else {
+                    pic = "pic_bulbon.gif"
+                   }   
+                    document.getElementById("lampu").src = pic;
+                }
+            
+        </script>
+
+        <img id="lampu" src="pic_bulboff.gif" width="200" height="360">
+
+        <p>
+            <button type="button" onclick="light(1)">nyala</button>
+            <button type="button" onclick="light(0)">mati</button>
+        </p>
+
+        <p id="r">huu</p>
+
+        <button type="button" onclick="myFunction()">bruh</button>
+        <script src="app.js"></script>
+
+        
+
+    </body>
+</html>

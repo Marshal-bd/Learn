@@ -1,0 +1,18 @@
+a:link,
+a:visited {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  border-bottom-style: outset;
+  border-right-style: outset;
+  color: aliceblue;
+}
+
+a:playing,
+:active {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  border-bottom-style: none;
+  border-right-style: none;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  height: auto;
+  display: flex;
+  align-items: normal;
+  background: azure;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* Membuat container setinggi viewport */
+  align-items: center; /* Menengahkan secara vertikal */
+  padding-bottom: 930px;
+}
+.box {
+  background-color: lightblue;
+  padding: 80px;
+  width: 1920px;
+  align-items: center;
+  align-items: center;
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+}
+
+a:link , a:visited {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  border-bottom-style: outset;
+  border-right-style: outset;
+}
+
+a:hover, :active {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  border-bottom-style: none;
+  border-right-style: none;
+}

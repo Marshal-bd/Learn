@@ -1,0 +1,147 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #237dad;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+  }
+
+  header {
+    background: #237dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    image-resolution: unset;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .card {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  h2 {
+    border-bottom: 2px solid #237dad;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    position: relative;
+  }
+
+  button {
+    background: #237dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background: #305182;
+  }
+
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #237dad;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  position: relative;
+}
+
+button {
+  background: #305182;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #000000;
+}
+
+.Logo {
+  float: left;
+  width: 100px;
+  background-color: azure;
+  border-radius: 60px;
+}
+
+.o {
+  background-color: azure;
+  width: 400px;
+  border-radius: 20px;
+}

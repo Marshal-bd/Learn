@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #e8e8e8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: #d9d9d9;
+  box-shadow: 0px 5px 6px 0px rgb(0, 0, 0, 0.2);
+}
+.Nav-Container {
+  margin: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav-Logo img {
+  width: 90px;
+  height: auto;
+  filter: drop-shadow(0.4px 1.2px 4px rgb(0, 0, 0));
+}
+.Navigation {
+  font-size: 20px;
+}
+.Navigation a {
+  color: #292929;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  transition-duration: 0.7s;
+}
+.Navigation a:hover {
+  text-shadow: 1px 1px 33px rgb(0, 0, 0);
+  font-size: 22px;
+}
+.Hero-Section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.Background-Hero {
+  width: 100%;
+  height: auto;
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+.hero-title {
+  width: 1200px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-shadow: 1px 3px 50px rgba(0, 0, 0, 0.636);
+}
+.hero-title h1 {
+  font-weight: 600;
+  font-size: 70px;
+}
+.hero-title p {
+  text-align: center;
+  font-size: 25px;
+}
+@media (max-width: 1200px) {
+  .hero-title {
+    top: 27%;
+    width: 940px;
+  }
+}
+@media (max-width: 1020px) {
+  .Nav-Container {
+    margin: 0px 50px;
+  }
+  .Navigation {
+    font-size: 17px;
+  }
+  .Navigation a:hover {
+    font-size: 19px;
+  }
+  .hero-title {
+    top: 27%;
+    width: 700px;
+  }
+  .hero-title h1 {
+    font-size: 50px;
+  }
+  .hero-title p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .hero-title {
+    top: 20%;
+    width: 600px;
+  }
+  .hero-title h1 {
+    font-size: 30px;
+  }
+  .hero-title p {
+    font-size: medium;
+  }
+}
+@media (max-width: 720px) {
+  .hero-title {
+    top: 20%;
+    width: 400px;
+  }
+  .hero-title h1 {
+    font-size: 20px;
+  }
+  .hero-title p {
+    font-size: 14px;
+  }
+}
