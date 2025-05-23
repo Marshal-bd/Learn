@@ -66,6 +66,42 @@ nav {
   text-align: center;
   font-size: 25px;
 }
+.Hero-Button {
+  margin-bottom: -20%;
+  margin-top: 90px;
+}
+.Button1 {
+  padding: 20px 60px;
+  border-radius: 40px;
+  border: none;
+  font-family: "Poppins";
+  font-size: large;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.4);
+  margin: 0px 90px;
+  transition-duration: 0.7s;
+}
+.Button2 {
+  padding: 20px 60px;
+  border-radius: 40px;
+  border: none;
+  font-family: "Poppins";
+  font-size: large;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  box-shadow: 5px 2px 10px 0px rgba(0, 0, 0, 0.4);
+  margin: 0px 90px;
+  transition-duration: 0.7s;
+}
+.Button1:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.Button2:hover {
+  background-color: rgb(69, 67, 67);
+  color: whitesmoke;
+}
 @media (max-width: 1200px) {
   .hero-title {
     top: 27%;
